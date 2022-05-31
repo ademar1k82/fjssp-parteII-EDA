@@ -13,18 +13,15 @@ Para colocar o projeto a funcionar localmente em uma máquina basta:
 ### Estrutura
 As pastas e ficheiros que são utilizados no desenvolvimento do projeto estão estruturados da seguinte maneira:
 
-fjssp.sln\
-docs/\
-├── html\
-├── Doxyfile\
-├── er-model.drawio\
-├── er-model.png\
+fjssp - parteII.sln\
+Doxyfile\
 fjssp/\
 ├── data.c\
 ├── header.h\
 ├── jobs.c\
 ├── machines.c\
 ├── main.c\
+├── plan.c\
 ├── machines.c\
 ├── executions.c\
 └── operations.c\
