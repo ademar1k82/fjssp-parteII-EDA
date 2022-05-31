@@ -54,7 +54,7 @@ Para contribuir em desenvolvimento, ler por favor as diretivas estabelecidas par
 
 
 ## Criadores
-- Luís Pereira
+- Ademar Valente
 
 
 ## Licença
