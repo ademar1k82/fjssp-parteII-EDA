@@ -1,0 +1,894 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment FJSSP - Parte II  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+v1.2 \par
+}}FJSSP - Parte II}
+{\comment Generated by doxygen1.9.3.}
+{\creatim \yr2022\mo5\dy31\hr23\min33\sec45}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt FJSSP - Parte II}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version v1.2\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Tue May 31 2022 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Data Structure Index\par \pard\plain 
+{\tc \v Data Structure Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Data Structures\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the data structures with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Cell} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar um plano de produ\'E7\'E3o })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Execution} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista das execu\'E7\'F5es das opera\'E7\'F5es em m\'E1quinas (em mem\'F3ria) })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b ExecutionNode} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar cada n\'F3 (posi\'E7\'E3o) da tabela hash das execu\'E7\'F5es (em mem\'F3ria) })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b FileExecution} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de execu\'E7\'F5es das opera\'E7\'F5es em m\'E1quinas })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b FileJob} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de trabalhos })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b FileMachine} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de m\'E1quinas })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b FileOperation} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de opera\'E7\'F5es })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Job} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de trabalhos (em mem\'F3ria) })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Machine} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de m\'E1quinas (em mem\'F3ria) })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Operation} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de opera\'E7\'F5es (em mem\'F3ria) })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all documented files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/{\b header.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Data Structure Documentation{\tc \v Data Structure Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Cell Struct Reference\par \pard\plain 
+{\tc\tcl2 \v Cell}
+{\xe \v Cell}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar um plano de produ\'E7\'E3o. }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b jobID}{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b operationID}{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b initialTime}{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b finalTime}{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar um plano de produ\'E7\'E3o. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Execution Struct Reference\par \pard\plain 
+{\tc\tcl2 \v Execution}
+{\xe \v Execution}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista das execu\'E7\'F5es das opera\'E7\'F5es em m\'E1quinas (em mem\'F3ria) }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b operationID}{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b machineID}{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b runtime}{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+struct {\b Execution} * {\b next}{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista das execu\'E7\'F5es das opera\'E7\'F5es em m\'E1quinas (em mem\'F3ria) \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ExecutionNode Struct Reference\par \pard\plain 
+{\tc\tcl2 \v ExecutionNode}
+{\xe \v ExecutionNode}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar cada n\'F3 (posi\'E7\'E3o) da tabela hash das execu\'E7\'F5es (em mem\'F3ria) }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Execution} * {\b start}{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b numberOfExecutions}{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar cada n\'F3 (posi\'E7\'E3o) da tabela hash das execu\'E7\'F5es (em mem\'F3ria) \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+FileExecution Struct Reference\par \pard\plain 
+{\tc\tcl2 \v FileExecution}
+{\xe \v FileExecution}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de execu\'E7\'F5es das opera\'E7\'F5es em m\'E1quinas. }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b operationID}{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b machineID}{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b runtime}{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de execu\'E7\'F5es das opera\'E7\'F5es em m\'E1quinas. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+FileJob Struct Reference\par \pard\plain 
+{\tc\tcl2 \v FileJob}
+{\xe \v FileJob}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de trabalhos. }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b id}{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de trabalhos. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+FileMachine Struct Reference\par \pard\plain 
+{\tc\tcl2 \v FileMachine}
+{\xe \v FileMachine}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de m\'E1quinas. }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b id}{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b isBusy}{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de m\'E1quinas. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+FileOperation Struct Reference\par \pard\plain 
+{\tc\tcl2 \v FileOperation}
+{\xe \v FileOperation}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de opera\'E7\'F5es. }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b id}{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b jobID}{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b position}{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para armazenar em ficheiro a lista de opera\'E7\'F5es. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Job Struct Reference\par \pard\plain 
+{\tc\tcl2 \v Job}
+{\xe \v Job}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de trabalhos (em mem\'F3ria) }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b id}{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+struct {\b Job} * {\b next}{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de trabalhos (em mem\'F3ria) \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Machine Struct Reference\par \pard\plain 
+{\tc\tcl2 \v Machine}
+{\xe \v Machine}
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de m\'E1quinas (em mem\'F3ria) }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b id}{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b isBusy}{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+struct {\b Machine} * {\b next}{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de m\'E1quinas (em mem\'F3ria) \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Operation Struct Reference\par \pard\plain 
+{\tc\tcl2 \v Operation}
+{\xe \v Operation}
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de opera\'E7\'F5es (em mem\'F3ria) }}\par
+{
+{\f2 #include <header.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b id}{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b jobID}{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b position}{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+struct {\b Operation} * {\b next}{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Estrutura de dados para representar a lista de opera\'E7\'F5es (em mem\'F3ria) \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+header.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h}
+{\xe \v C:/Users/adema/OneDrive/Ambiente de Trabalho/FJSSP - parteII/fjssp/header.h}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+12 {\cf21 #ifndef HEADER_H}\par
+13 \par
+14 {\cf21 #pragma region constantes}\par
+15 \par
+16 {\cf21 #define HEADER_H}\par
+17 \par
+21 {\cf21 #define HASH_TABLE_SIZE 13 }{\cf20 //numero primo - evitar colis\'F5es}\par
+22 {\cf21 #define NUMBER_MACHINES 8}\par
+23 {\cf21 #define MAX_TIME 40}\par
+24 \par
+28 {\cf21 #define FILE_LINE_SIZE 50}\par
+29 {\cf21 #define JOBS_FILENAME_TEXT "text/jobs.csv"}\par
+30 {\cf21 #define MACHINES_FILENAME_TEXT "text/machines.csv"}\par
+31 {\cf21 #define OPERATIONS_FILENAME_TEXT "text/operations.csv"}\par
+32 {\cf21 #define EXECUTIONS_FILENAME_TEXT "text/executions.csv"}\par
+33 \par
+37 {\cf21 #define JOBS_FILENAME_BINARY "binary/jobs.bin"}\par
+38 {\cf21 #define MACHINES_FILENAME_BINARY "binary/machines.bin"}\par
+39 {\cf21 #define OPERATIONS_FILENAME_BINARY "binary/operations.bin"}\par
+40 {\cf21 #define EXECUTIONS_FILENAME_BINARY "binary/executions.bin"}\par
+41 \par
+42 {\cf21 #pragma endregion}\par
+43 \par
+44 \par
+45 {\cf21 #pragma region representa\'E7\'F5es}\par
+46 \par
+50 {\cf17 typedef} {\cf17 enum} {\cf18 bool}\par
+51 \{\par
+52    {\cf17 false} = 0,\par
+53    {\cf17 true} = 1\par
+54 \} bool;\par
+55 \par
+56 {\cf21 #pragma endregion}\par
+57 \par
+58 \par
+59 {\cf21 #pragma region estruturas de dados em mem\'F3ria}\par
+60 \par
+64 {\cf17 typedef} {\cf17 struct }Job\par
+65 \{\par
+66     {\cf18 int} id;\par
+67     {\cf17 struct }Job* next;\par
+68 \} Job;\par
+69 \par
+70 {\cf20 // lista de trabalhos}\par
+71 {\cf17 extern} Job* jobs; {\cf20 // extern: informa o compilador que esta vari\'E1vel est\'E1 definida algures no c\'F3digo}\par
+72 \par
+76 {\cf17 typedef} {\cf17 struct }Machine\par
+77 \{\par
+78     {\cf18 int} id;\par
+79     {\cf18 bool} isBusy; {\cf20 // se a m\'E1quina est\'E1 ou n\'E3o em utiliza\'E7\'E3o}\par
+80     {\cf17 struct }Machine* next;\par
+81 \} Machine;\par
+82 \par
+83 {\cf20 // lista de m\'E1quinas}\par
+84 {\cf17 extern} Machine* machines;\par
+85 \par
+89 {\cf17 typedef} {\cf17 struct }Operation\par
+90 \{\par
+91     {\cf18 int} id;\par
+92     {\cf18 int} jobID;\par
+93     {\cf18 int} position; {\cf20 // posi\'E7\'E3o da opera\'E7\'E3o (se \'E9 a 1\'BA, 2\'BA, 3\'BA... a ser executada)}\par
+94     {\cf17 struct }Operation* next;\par
+95 \} Operation;\par
+96 \par
+97 {\cf20 // lista de opera\'E7\'F5es}\par
+98 {\cf17 extern} Operation* operations;\par
+99 \par
+103 {\cf17 typedef} {\cf17 struct }Execution\par
+104 \{\par
+105     {\cf18 int} operationID;\par
+106     {\cf18 int} machineID;\par
+107     {\cf18 int} runtime; {\cf20 // unidades de tempo necess\'E1rias para a execu\'E7\'E3o da opera\'E7\'E3o}\par
+108     {\cf17 struct }Execution* next;\par
+109 \} Execution;\par
+110 \par
+111 {\cf20 // lista de execu\'E7\'F5es}\par
+112 {\cf17 extern} Execution* executions;\par
+113 \par
+117 {\cf17 typedef} {\cf17 struct }\{\par
+118     Execution* start; {\cf20 // apontador para o primeiro elemento de cada posi\'E7\'E3o da tabela}\par
+119     {\cf18 int} numberOfExecutions; {\cf20 // quantidade de execu\'E7\'F5es de cada posi\'E7\'E3o da tabela}\par
+120 \} ExecutionNode;\par
+121 \par
+122 {\cf20 // tabela hash para armazenar as execu\'E7\'F5es e fazer buscas de forma mais eficiente,}\par
+123 {\cf20 // \'E9 um array de apontadores para listas de execu\'E7\'F5es}\par
+124 {\cf17 extern} ExecutionNode* executionsTable[HASH_TABLE_SIZE];\par
+125 \par
+129 {\cf17 typedef} {\cf17 struct }Cell\par
+130 \{\par
+131     {\cf18 int} jobID;\par
+132     {\cf18 int} operationID;\par
+133     {\cf18 int} initialTime;\par
+134     {\cf18 int} finalTime;\par
+135 \} Cell;\par
+136 \par
+137 {\cf17 extern} Cell plan[NUMBER_MACHINES][MAX_TIME];\par
+138 \par
+139 {\cf21 #pragma endregion}\par
+140 \par
+141 \par
+142 {\cf21 #pragma region estruturas de dados em ficheiros}\par
+143 \par
+147 {\cf17 typedef} {\cf17 struct }FileJob\par
+148 \{\par
+149     {\cf18 int} id;\par
+150 \} FileJob;\par
+151 \par
+155 {\cf17 typedef} {\cf17 struct }FileMachine\par
+156 \{\par
+157     {\cf18 int} id;\par
+158     {\cf18 bool} isBusy; {\cf20 // se a m\'E1quina est\'E1 ou n\'E3o em utiliza\'E7\'E3o}\par
+159 \} FileMachine;\par
+160 \par
+164 {\cf17 typedef} {\cf17 struct }FileOperation\par
+165 \{\par
+166     {\cf18 int} id;\par
+167     {\cf18 int} jobID;\par
+168     {\cf18 int} position; {\cf20 // posi\'E7\'E3o da opera\'E7\'E3o (se \'E9 a 1\'BA, 2\'BA, 3\'BA... a ser executada)}\par
+169 \} FileOperation;\par
+170 \par
+174 {\cf17 typedef} {\cf17 struct }FileExecution\par
+175 \{\par
+176     {\cf18 int} operationID;\par
+177     {\cf18 int} machineID;\par
+178     {\cf18 int} runtime; {\cf20 // unidades de tempo necess\'E1rias para a execu\'E7\'E3o da opera\'E7\'E3o}\par
+179 \} FileExecution;\par
+180 \par
+181 {\cf21 #pragma endregion}\par
+182 \par
+183 \par
+184 {\cf21 #pragma region fun\'E7\'F5es}\par
+185 \par
+189 Job* loadJobs({\cf18 char}* fileName);\par
+190 Job* newJob({\cf18 int} {\cf18 id});\par
+191 Job* insertJob_AtStart(Job* head, Job* {\cf17 new});\par
+192 {\cf18 bool} deleteJob(Job** head, {\cf18 int} {\cf18 id});\par
+193 {\cf18 bool} writeJobs({\cf18 char} fileName[], Job* head);\par
+194 Job* readJobs({\cf18 char} fileName[]);\par
+195 {\cf18 bool} displayJobs(Job* head);\par
+196 {\cf18 bool} searchJob(Job* head, {\cf18 int} {\cf18 id});\par
+197 \par
+201 Machine* loadMachines({\cf18 char}* fileName);\par
+202 Machine* newMachine({\cf18 int} {\cf18 id}, {\cf18 bool} isBusy);\par
+203 Machine* insertMachine_AtStart(Machine* head, Machine* {\cf17 new});\par
+204 {\cf18 bool} writeMachines({\cf18 char} fileName[], Machine* head);\par
+205 Machine* readMachines({\cf18 char} fileName[]);\par
+206 {\cf18 bool} displayMachines(Machine* head);\par
+207 {\cf18 bool} searchMachine(Machine* head, {\cf18 int} {\cf18 id});\par
+208 \par
+212 Operation* loadOperations({\cf18 char}* fileName);\par
+213 Operation* newOperation({\cf18 int} {\cf18 id}, {\cf18 int} jobID, {\cf18 int} position);\par
+214 Operation* insertOperation_AtStart(Operation* head, Operation* {\cf17 new});\par
+215 {\cf18 bool} updatePosition(Operation** head, {\cf18 int} xOperationID, {\cf18 int} yOperationID);\par
+216 {\cf18 bool} deleteOperation(Operation** head, {\cf18 int} {\cf18 id});\par
+217 {\cf18 int} deleteOperation_ByJob(Operation** head, {\cf18 int} jobID);\par
+218 {\cf18 bool} writeOperations({\cf18 char} fileName[], Operation* head);\par
+219 Operation* readOperations({\cf18 char} fileName[]);\par
+220 {\cf18 bool} displayOperations(Operation* head);\par
+221 {\cf18 bool} searchOperation(Operation* head, {\cf18 int} {\cf18 id});\par
+222 {\cf18 bool} searchOperation_ByJob(Operation* head, {\cf18 int} jobID);\par
+223 Operation* getOperation(Operation* head, {\cf18 int} {\cf18 id});\par
+224 {\cf18 int} getMinTime_ToCompleteJob(Operation* operations, Execution* executions, {\cf18 int} jobID, Execution** minExecutions);\par
+225 {\cf18 int} getMaxTime_ToCompleteJob(Operation* operations, Execution* executions, {\cf18 int} jobID, Execution** maxExecutions);\par
+226 {\cf18 float} getAverageTime_ToCompleteOperation(Execution* head, {\cf18 int} operationID);\par
+227 \par
+231 Execution* newExecution({\cf18 int} operationID, {\cf18 int} machineID, {\cf18 int} runtime);\par
+232 Execution* insertExecution_AtStart_AtList(Execution* head, Execution* {\cf17 new});\par
+233 Execution* insertExecution_ByOperation_AtList(Execution* head, Execution* {\cf17 new});\par
+234 {\cf18 bool} updateRuntime_AtList(Execution** head, {\cf18 int} operationID, {\cf18 int} machineID, {\cf18 int} runtime);\par
+235 {\cf18 bool} deleteExecution_ByOperation_AtList(Execution** head, {\cf18 int} operationID);\par
+236 {\cf18 bool} writeExecutions_AtList({\cf18 char} fileName[], Execution* head);\par
+237 Execution* readExecutions_AtList({\cf18 char} fileName[]);\par
+238 {\cf18 bool} displayExecutions_AtList(Execution* head);\par
+239 Execution* searchExecution_AtList(Execution* head, {\cf18 int} operationID, {\cf18 int} machineID);\par
+240 Execution* searchExecution_ByOperation_AtList(Execution* head, {\cf18 int} operationID);\par
+241 Execution* sortExecutions_ByOperation_AtList(Execution* head);\par
+242 Execution* getLastExecution_AtList(Execution* head);\par
+243 Execution* free_Execution_List(Execution* head);\par
+244 \par
+248 ExecutionNode** loadExecutionsTable({\cf18 char}* fileName, ExecutionNode* table[]);\par
+249 ExecutionNode** createExecutionsTable(ExecutionNode* table[]);\par
+250 ExecutionNode* createExecutionNode();\par
+251 {\cf18 int} generateHash({\cf18 int} {\cf18 id});\par
+252 ExecutionNode** insertExecution_AtTable(ExecutionNode* table[], Execution* {\cf17 new});\par
+253 {\cf18 bool} updateRuntime_ByOperation_AtTable(ExecutionNode** table[], {\cf18 int} operationID, {\cf18 int} machineID, {\cf18 int} runtime);\par
+254 {\cf18 bool} deleteExecutions_ByOperation_AtTable(ExecutionNode** table[], {\cf18 int} operationID);\par
+255 {\cf18 bool} writeExecutions_AtTable({\cf18 char} fileName[], ExecutionNode* table[]);\par
+256 ExecutionNode** readExecutions_AtTable({\cf18 char} fileName[], ExecutionNode* tableee[]);\par
+257 {\cf18 bool} displayExecutions_AtTable(ExecutionNode* table[]);\par
+258 Execution* searchExecution_AtTable(ExecutionNode* table[], {\cf18 int} operationID, {\cf18 int} machineID);\par
+259 ExecutionNode** free_Execution_Table(ExecutionNode* table[]);\par
+260 \par
+264 {\cf18 bool} startPlan(Cell plan[][MAX_TIME], {\cf18 int} jobID, {\cf18 int} executionID);\par
+265 {\cf18 bool} fillCells(Cell p[][MAX_TIME], {\cf18 int} mid, {\cf18 int} jid, {\cf18 int} oid, {\cf18 int} it, {\cf18 int} ft);\par
+266 {\cf18 bool} searchActiveCells(Cell p[][MAX_TIME], {\cf18 int} mid, {\cf18 int} it, {\cf18 int} ft);\par
+267 {\cf18 bool} displayPlan(Cell p[][MAX_TIME]);\par
+268 \par
+269 {\cf21 #pragma endregion}\par
+270 \par
+271 {\cf21 #endif}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
